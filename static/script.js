@@ -1,6 +1,5 @@
 // Flask Backend Configuration
-const BACKEND_URL = 'http://localhost:5000';
-
+const BACKEND_URL = window.location.hostname === 'localhost' ? 'http://localhost:5000' : '';
 // DOM Elements
 const inputCode = document.getElementById('inputCode');
 const outputCode = document.getElementById('outputCode');
