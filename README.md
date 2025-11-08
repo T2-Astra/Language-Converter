@@ -130,13 +130,6 @@ http://localhost:5000
 
 </details>
 
-### Alternative Platforms
-
-| Platform | Free Tier | Difficulty | Speed |
-|----------|-----------|------------|-------|
-| [Railway](https://railway.app/) | $5 credit | ⭐⭐ | ⚡⚡⚡ |
-| [PythonAnywhere](https://www.pythonanywhere.com/) | Limited | ⭐⭐⭐ | ⚡⚡ |
-| [Vercel](https://vercel.com/) | Yes | ⭐⭐⭐⭐ | ⚡⚡⚡ |
 
 ---
 
