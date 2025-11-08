@@ -9,9 +9,7 @@
 [![Google Gemini](https://img.shields.io/badge/Gemini-2.5%20Flash-orange.svg)](https://ai.google.dev/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-[Live Demo](https://your-app.onrender.com) • [Report Bug](https://github.com/T2-Astra/Language-Converter/issues) • [Request Feature](https://github.com/T2-Astra/Language-Converter/issues)
-
-![Code Converter Preview](https://via.placeholder.com/800x400/1a1a1a/34d399?text=Code+Language+Converter)
+[Live Demo](https://languageconverter.onrender.com/) • [Report Bug](https://github.com/T2-Astra/Language-Converter/issues) • [Request Feature](https://github.com/T2-Astra/Language-Converter/issues)
 
 </div>
 
@@ -164,18 +162,6 @@ http://localhost:5000
 
 ---
 
-## 📸 Screenshots
-
-<div align="center">
-
-### Main Interface
-![Main Interface](https://via.placeholder.com/700x400/1a1a1a/34d399?text=Beautiful+Aurora+Background)
-
-### Code Conversion in Action
-![Conversion](https://via.placeholder.com/700x400/1a1a1a/34d399?text=Real-time+Code+Conversion)
-
-### Language Detection
-![Detection](https://via.placeholder.com/700x400/1a1a1a/34d399?text=Smart+Language+Detection)
 
 </div>
 
