@@ -1,279 +1,52 @@
-<div align="center">
+# 🔄 AI Code Language Converter
 
-# 🔄 Code Language Converter
+A sleek, modern, and open-source web application for converting code between hundreds of programming languages using AI. Built with **Vanilla HTML/JS**, **Tailwind CSS**, and **Shadcn UI** aesthetics.
 
-### *Transform Code Across Languages with AI Magic*
+![Language Converter Preview](https://github.com/T2-Astra/Language-Converter/raw/main/preview.png)
 
-[![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/downloads/)
-[![Flask](https://img.shields.io/badge/Flask-3.0.0-green.svg)](https://flask.palletsprojects.com/)
-[![Google Gemini](https://img.shields.io/badge/Gemini-2.5%20Flash-orange.svg)](https://ai.google.dev/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+## ✨ Features
 
-[Live Demo](https://languageconverter.onrender.com/) • [Report Bug](https://github.com/T2-Astra/Language-Converter/issues) • [Request Feature](https://github.com/T2-Astra/Language-Converter/issues)
+- 🚀 **Instant Conversion**: Seamlessly translate code between any programming language.
+- 🔍 **Searchable Languages**: Smart combobox with live search support for 100+ languages.
+- 🎨 **Shadcn UI Design**: Beautiful, minimal, and professional interface with Figtree typography.
+- ⚡ **Real-time Feedback**: Premium shimmer animations during the conversion process.
+- 📱 **Fully Responsive**: Works perfectly on mobile, tablet, and desktop.
 
-</div>
+## 🔑 API Configuration
 
----
+This project is open-source and uses the **KeyMorph API** to handle the heavy lifting of code translation. 
 
-## ✨ Features That Make You Go "Wow"
-
-<table>
-<tr>
-<td width="50%">
-
-### 🎯 **Smart Conversion**
-Powered by Google's Gemini 2.5 Flash AI, converting code between languages has never been more accurate and intelligent.
-
-### 🎨 **Stunning UI**
-Experience a mesmerizing Aurora gradient background with glassmorphism effects that make coding feel like art.
-
-</td>
-<td width="50%">
-
-### ⚡ **Lightning Fast**
-Real-time language detection and instant code conversion. No waiting, just results.
-
-### 🌙 **Developer Friendly**
-Dark mode interface designed for long coding sessions. Easy on the eyes, powerful in functionality.
-
-</td>
-</tr>
-</table>
-
----
-
-## 🚀 Supported Languages
-
-<div align="center">
-
-| Language | Status | Language | Status |
-|----------|--------|----------|--------|
-| 🟨 **JavaScript** | ✅ | 🔵 **TypeScript** | ✅ |
-| 🐍 **Python** | ✅ | 🟣 **Kotlin** | ✅ |
-| ☕ **Java** | ✅ | 🍎 **Swift** | ✅ |
-| ⚙️ **C++** | ✅ | 🐘 **PHP** | ✅ |
-| 💜 **C#** | ✅ | 💎 **Ruby** | ✅ |
-| 🔷 **Go** | ✅ | 🦀 **Rust** | ✅ |
-
-</div>
-
----
-
-## 🎬 Quick Start
-
-### Prerequisites
-
-```bash
-Python 3.9+
-pip (Python package manager)
-Google Gemini API Key
-```
-
-### Installation
-
-1️⃣ **Clone the repository**
-```bash
-git clone https://github.com/T2-Astra/Language-Converter.git
-cd Language-Converter
-```
-
-2️⃣ **Install dependencies**
-```bash
-pip install -r requirements.txt
-```
-
-3️⃣ **Set up environment variables**
-```bash
-# Create .env file
-echo "GEMINI_API_KEY=your_api_key_here" > .env
-```
-
-4️⃣ **Run the application**
-```bash
-python converter.py
-```
-
-5️⃣ **Open your browser**
-```
-http://localhost:5000
-```
-
----
-
-## 🌐 Deploy to Production
-
-### Deploy on Render (Recommended)
-
-<details>
-<summary><b>Click to expand deployment steps</b></summary>
-
-1. **Push to GitHub**
-   ```bash
-   git add .
-   git commit -m "Ready for deployment"
-   git push origin main
+### How to get an API Key:
+To use this project locally or deploy it yourself, you will need your own KeyMorph API key:
+1. Visit [KeyMorph](https://keymorph.zeabur.app/) (or your preferred AI endpoint provider).
+2. Generate your unique API Key.
+3. Open `index.html` in your text editor.
+4. Locate the following line (around line 360-370):
+   ```javascript
+   const response = await fetch('https://keymorph.zeabur.app/v1/YOUR_API_ID', {
    ```
+5. Replace `YOUR_API_ID` (or the existing endpoint) with your own API endpoint/key ID.
 
-2. **Create Render Service**
-   - Go to [Render Dashboard](https://dashboard.render.com/)
-   - Click **"New +"** → **"Web Service"**
-   - Connect your GitHub repository
-   - Render auto-detects `render.yaml`
+## 🚀 Getting Started
 
-3. **Configure Environment**
-   - Add `GEMINI_API_KEY` in Environment Variables
-   - Click **"Create Web Service"**
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/T2-Astra/Language-Converter.git
+   ```
+2. **Open the project:**
+   Simply open `index.html` in any modern web browser. No complex installation or server setup is required!
 
-4. **Done!** 🎉
-   - Your app will be live in 2-3 minutes
-   - Access at `https://your-app.onrender.com`
+## 🛠️ Built With
 
-</details>
+- **HTML5/ES6+ Javascript**
+- **Tailwind CSS** (via CDN)
+- **Figtree Font** (Google Fonts)
+- **Lucide Icons**
+- **KeyMorph API**
 
+## 📄 License
 
----
-
-## 🛠️ Tech Stack
-
-<div align="center">
-
-### Backend
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Google Gemini](https://img.shields.io/badge/Google%20Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
-
-### Frontend
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-
-### Deployment
-![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-
-</div>
+This project is open-source and available under the MIT License. Feel free to fork, modify, and use it for your own projects!
 
 ---
-
-
-</div>
-
----
-
-## 🎯 Key Features Breakdown
-
-### 🔮 AI-Powered Conversion
-- Utilizes Google's Gemini 2.5 Flash model
-- Context-aware code translation
-- Preserves code logic and structure
-- Handles complex syntax patterns
-
-### 🎨 Aurora Background Animation
-- Smooth gradient transitions
-- Multiple animated layers
-- Glassmorphism UI elements
-- Optimized CSS animations
-
-### ⚡ Real-Time Detection
-- Automatic language identification
-- Instant feedback
-- Support for 12+ languages
-- Pattern-based recognition
-
-### 📋 Developer Tools
-- One-click copy to clipboard
-- Download converted code
-- Syntax highlighting with Prism.js
-- Keyboard shortcuts (Ctrl+Enter to convert)
-
----
-
-## 🤝 Contributing
-
-Contributions make the open-source community an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
-
-## 📝 Environment Variables
-
-| Variable | Description | Required |
-|----------|-------------|----------|
-| `GEMINI_API_KEY` | Your Google Gemini API key | ✅ Yes |
-| `PORT` | Server port (default: 5000) | ❌ No |
-
-### Getting Your Gemini API Key
-
-1. Visit [Google AI Studio](https://makersuite.google.com/app/apikey)
-2. Sign in with your Google account
-3. Click **"Create API Key"**
-4. Copy and add to your `.env` file
-
----
-
-## 📊 Project Structure
-
-```
-Language-Converter/
-├── 📁 static/
-│   ├── styles.css          # Aurora animations & styling
-│   └── script.js           # Frontend logic
-├── 📁 templates/
-│   └── index.html          # Main UI
-├── 📄 converter.py         # Flask backend
-├── 📄 requirements.txt     # Python dependencies
-├── 📄 render.yaml          # Deployment config
-├── 📄 .env.example         # Environment template
-├── 📄 .gitignore          # Git ignore rules
-└── 📄 README.md           # You are here!
-```
-
----
-
-## 🐛 Known Issues & Roadmap
-
-### Current Limitations
-- [ ] Large code files (>10,000 lines) may take longer
-- [ ] Some niche language features might not convert perfectly
-
-### Upcoming Features
-- [ ] Support for more languages (Dart, Scala, Elixir)
-- [ ] Code explanation feature
-- [ ] Batch file conversion
-- [ ] API endpoint for developers
-- [ ] VS Code extension
-- [ ] Syntax error detection
-
----
-
-## 📜 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
----
-
-## 👨‍💻 Author
-
-**T2-Astra**
-
-- GitHub: [@T2-Astra](https://github.com/T2-Astra)
-- Project Link: [Language-Converter](https://github.com/T2-Astra/Language-Converter)
-
----
-
-## 🌟 Show Your Support
-
-Give a ⭐️ if this project helped you!
-
-<div align="center">
-
-### Made with ❤️ and lots of ☕
-
-**[⬆ Back to Top](#-code-language-converter)**
-
-</div>
+Developed by [T2-Astra](https://github.com/T2-Astra) 🚀
