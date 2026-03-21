@@ -9,9 +9,9 @@ A modern web application for converting code between programming languages using
 - Open `index.html` in any browser.
 
 ## API Setup
-To use code conversion, you must implement your own API key:
-- Generate your KeyMorph API Key at [KeyMorph](https://keymorph.zeabur.app/).
-- Open `index.html` and replace `6c1b667a0e7d9c5b` (around line 360) with your actual API endpoint.
+To use the code conversion feature, you must configure your own API endpoint:
+- Get your KeyMorph API point at [KeyMorph Zeabur App](https://keymorph.zeabur.app/). 
+- Open `index.html` and replace `REPLACE_WITH_YOUR_API_KEY` with your unique API endpoint code.
 
 ## License
 MIT License. Open-source project created by [T2-Astra](https://github.com/T2-Astra).
