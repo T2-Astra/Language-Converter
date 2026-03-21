@@ -2,8 +2,6 @@
 
 A sleek, modern, and open-source web application for converting code between hundreds of programming languages using AI. Built with **Vanilla HTML/JS**, **Tailwind CSS**, and **Shadcn UI** aesthetics.
 
-![Language Converter Preview](https://github.com/T2-Astra/Language-Converter/raw/main/preview.png)
-
 ## ✨ Features
 
 - 🚀 **Instant Conversion**: Seamlessly translate code between any programming language.
