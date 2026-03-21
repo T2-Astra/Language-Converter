@@ -10,7 +10,7 @@ A modern web application for converting code between programming languages using
 
 ## API Setup
 To use the code conversion feature, you must configure your own API endpoint:
-- Get your KeyMorph API point at [KeyMorph Zeabur App](https://keymorph.zeabur.app/). 
+- Obtain your KeyMorph API Key at the official website: [keymorph.dedyn.io](https://www.keymorph.dedyn.io/).
 - Open `index.html` and replace `REPLACE_WITH_YOUR_API_KEY` with your unique API endpoint code.
 
 ## License
